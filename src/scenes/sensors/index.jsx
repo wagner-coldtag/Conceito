@@ -180,12 +180,11 @@ const Sensors = () => {
           <Box
             mt="5px"
             p="20px"
-            bgcolor={colors.grey[900]}
+            bgcolor={colors.grey[1000]}
             borderRadius="8px"
             width="290px"
-            boxShadow={3} // Adds subtle shadow for better visibility
-            position="relative" // Make the container relative for absolute positioning
-
+            boxShadow={3}
+            position="relative"
           >
             <Box display="flex" justifyContent="space-between" alignItems="center" mb="10px">
               <Typography variant="h5" color="textPrimary" gutterBottom>
@@ -231,9 +230,23 @@ const Sensors = () => {
                 color="primary"
                 sx={{
                   mb: "10px", // Margin below the field
+
                   "& .MuiOutlinedInput-root": {
-                    height: "36px", // Set fixed height
-                    fontSize: "0.9rem", // Adjust font size if needed
+                    height: "40px",
+                    "& .MuiInputBase-input": {
+                      padding: "12px 14px", // Vertical centering
+                      fontSize: "1rem",
+                    },
+                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgb(30,182,250)", // Light blue outline on focus
+                    },
+                  },
+                  "& .MuiInputLabel-root": {
+                    fontSize: "1rem",
+                    top: "-6px",
+                    "&.Mui-focused": {
+                      color: "rgb(30,182,250)", // Light blue label color on focus
+                    },
                   },
                 }}
               />
@@ -246,9 +259,23 @@ const Sensors = () => {
                 color="primary"
                 sx={{
                   mb: "10px", // Margin below the field
+
                   "& .MuiOutlinedInput-root": {
-                    height: "36px", // Set fixed height
-                    fontSize: "0.9rem", // Adjust font size if needed
+                    height: "40px",
+                    "& .MuiInputBase-input": {
+                      padding: "12px 14px", // Vertical centering
+                      fontSize: "1rem",
+                    },
+                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgb(30,182,250)", // Light blue outline on focus
+                    },
+                  },
+                  "& .MuiInputLabel-root": {
+                    fontSize: "1rem",
+                    top: "-6px",
+                    "&.Mui-focused": {
+                      color: "rgb(30,182,250)", // Light blue label color on focus
+                    },
                   },
                 }}
               />
@@ -261,9 +288,23 @@ const Sensors = () => {
                 color="primary"
                 sx={{
                   mb: "10px", // Margin below the field
+
                   "& .MuiOutlinedInput-root": {
-                    height: "36px", // Set fixed height
-                    fontSize: "0.9rem", // Adjust font size if needed
+                    height: "40px",
+                    "& .MuiInputBase-input": {
+                      padding: "12px 14px", // Vertical centering
+                      fontSize: "1rem",
+                    },
+                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgb(30,182,250)", // Light blue outline on focus
+                    },
+                  },
+                  "& .MuiInputLabel-root": {
+                    fontSize: "1rem",
+                    top: "-6px",
+                    "&.Mui-focused": {
+                      color: "rgb(30,182,250)", // Light blue label color on focus
+                    },
                   },
                 }}
               />
@@ -276,9 +317,23 @@ const Sensors = () => {
                 color="primary"
                 sx={{
                   mb: "10px", // Margin below the field
+
                   "& .MuiOutlinedInput-root": {
-                    height: "36px", // Set fixed height
-                    fontSize: "0.9rem", // Adjust font size if needed
+                    height: "40px",
+                    "& .MuiInputBase-input": {
+                      padding: "12px 14px", // Vertical centering
+                      fontSize: "1rem",
+                    },
+                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgb(30,182,250)", // Light blue outline on focus
+                    },
+                  },
+                  "& .MuiInputLabel-root": {
+                    fontSize: "1rem",
+                    top: "-6px",
+                    "&.Mui-focused": {
+                      color: "rgb(30,182,250)", // Light blue label color on focus
+                    },
                   },
                 }}
               />
